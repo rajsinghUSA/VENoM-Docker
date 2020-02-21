@@ -26,6 +26,9 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - ./db:/data/db
+      - mongoData:/data/db
 
-    
+volumes:
+  mongoData:
+    external:
+      name: mongo_external
