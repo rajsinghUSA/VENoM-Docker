@@ -13,7 +13,7 @@ https://medium.com/@audretschjames/venom-stack-docker-setup-for-local-developmen
 
 2. Clone this repository
 
-> git clone https://github.com/jamesaud/VENoM-Docker
+> git clone https://github.com/rajsinghUSA/VENoM-Docker
 
 3. Navigate into the directory VENoM-Docker
 
