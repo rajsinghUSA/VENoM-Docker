@@ -11,19 +11,19 @@ https://medium.com/@audretschjames/venom-stack-docker-setup-for-local-developmen
 
 > docker volume create mongo_external
 
-2a. Clone this repository
+2. Clone this repository
 
 > git clone https://github.com/jamesaud/VENoM-Docker
 
-2b. Navigate into the directory VENoM-Docker
+3. Navigate into the directory VENoM-Docker
 
 > cd your-path-to/VENOM-Docker
 
-3. Build Docker Images
+4. Build Docker Images
 
 > docker-compose build
 
-4. Run the stack :)
+5. Run the stack :)
 
 > docker-compose up
 
