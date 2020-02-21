@@ -7,11 +7,15 @@ https://medium.com/@audretschjames/venom-stack-docker-setup-for-local-developmen
 
 ### Steps to Run
 
-1. Clone this repository
+1. Create an external docker volume for Mongo (because [MongoDB's mounted volume and Docker don't play well](https://medium.com/vena-engineering/the-case-of-the-hidden-mongo-data-8e8ae25f85a8))
+
+> docker volume create mongo_external
+
+2a. Clone this repository
 
 > git clone https://github.com/jamesaud/VENoM-Docker
 
-2. Navigate into the directory VENoM-Docker
+2b. Navigate into the directory VENoM-Docker
 
 > cd your-path-to/VENOM-Docker
 
